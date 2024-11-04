@@ -24,7 +24,6 @@ mongoose.connect(URI).then(() => {
   console.log("Successfully Conected to MongoDb Server");
 });
 
-dflgkjldsfkjglsdjkflg;
 // Middleware
 app.use(express.json());
 app.use(morgan("tiny"));
